@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/profilePictureCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        android:paddingHorizontal="30dp"
+        android:layout_marginBottom="20dp"
+    android:backgroundTint="@color/white"
+        app:cardUseCompatPadding="true"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+        <ImageView
+            android:id="@+id/foodIV"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/pizza_placeholder"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/foodIV"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="20dp"
+            >
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="Deluxe"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Large"
+                />
+
+            <TextView
+                android:id="@+id/descTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintStart_toStartOf="@id/titleTV"
+                app:layout_constraintTop_toBottomOf="@id/titleTV"
+
+                android:layout_marginTop="5dp"
+
+                tools:text="Chiken, ham, pepperoni, tomato sauce, spicy chorizo and mozzarella"
+                android:textColor="@android:color/darker_gray"
+
+                style="@style/TextAppearance.AppCompat.Small"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/descTV"
+                app:layout_constraintEnd_toEndOf="parent"
+                style="@style/RoundedButton"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="46 usd"
+                android:textSize="17sp"
+                android:id="@+id/addButton"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/titleTV"
+                app:layout_constraintTop_toTopOf="@id/addButton"
+                app:layout_constraintBottom_toBottomOf="@id/addButton"
+                android:text="150 grams, 35 cm"
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/sizeTV"
+                style="@style/TextAppearance.AppCompat.Small"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
