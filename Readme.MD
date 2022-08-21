@@ -3,7 +3,7 @@
 Ui of foodDelivery app with mocked api.
 
 <div align="center">
-<img src= "https://media.giphy.com/media/1FBIEVIzMvAyG8IUNh/giphy.gif" height="600" width="400" >
+<a href="https://im.ge/i/OUQzza"><img src="https://i.im.ge/2022/08/21/OUQzza.app.gif" alt="app" height="1152" width="720" >
 </p>
   </div>
 
@@ -29,7 +29,7 @@ Ui of foodDelivery app with mocked api.
 ### Running App
 * Download project 
 * Open it with Android Studio
-* Run with emulator or attach your iphone
+* Run with emulator or attach your phone
 
 
 ## Authors
