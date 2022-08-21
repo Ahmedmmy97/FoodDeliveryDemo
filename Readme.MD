@@ -2,10 +2,7 @@
 
 Ui of foodDelivery app with mocked api.
 
-<div align="center">
-<a href="https://im.ge/i/OUQzza"><img src="https://i.im.ge/2022/08/21/OUQzza.app.gif" alt="app" height="1152" width="720" >
-</p>
-  </div>
+![FoodDeliveryApp](app.gif)
 
 ## Used Technologies
 * Kotlin
